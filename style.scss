@@ -1,0 +1,68 @@
+@import "variables";
+
+@font-face {
+    font-family: 'cmo-webfont';
+    src:
+        url('#{$icomoon-font-path}/cmo-webfont.ttf?srwkf4') format('truetype'),
+        url('#{$icomoon-font-path}/cmo-webfont.woff?srwkf4') format('woff'),
+        url('#{$icomoon-font-path}/cmo-webfont.svg?srwkf4#cmo-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'cmo-webfont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-man {
+    &:before {
+        content: $icon-man;
+    }
+}
+.icon-woman {
+    &:before {
+        content: $icon-woman;
+    }
+}
+.icon-user {
+    &:before {
+        content: $icon-user;
+    }
+}
+.icon-arrow-up {
+    &:before {
+        content: $icon-arrow-up;
+    }
+}
+.icon-arrow-down {
+    &:before {
+        content: $icon-arrow-down;
+    }
+}
+.icon-triangle-up {
+    &:before {
+        content: $icon-triangle-up;
+    }
+}
+.icon-triangle-down {
+    &:before {
+        content: $icon-triangle-down;
+    }
+}
+.icon-more {
+    &:before {
+        content: $icon-more;
+    }
+}
+

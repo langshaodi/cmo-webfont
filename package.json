@@ -1,0 +1,14 @@
+{
+  "name": "cmo-webfont",
+  "version": "1.0.0",
+  "description": "Open *demo.html* to see a list of all the glyphs in your font along with their codes/ligatures.",
+  "main": "style.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webfont"
+  ],
+  "author": "langxingjian@baidu.com",
+  "license": "ISC"
+}
