@@ -3,9 +3,9 @@
 @font-face {
     font-family: 'cmo-webfont';
     src:
-        url('#{$icomoon-font-path}/cmo-webfont.ttf?srwkf4') format('truetype'),
-        url('#{$icomoon-font-path}/cmo-webfont.woff?srwkf4') format('woff'),
-        url('#{$icomoon-font-path}/cmo-webfont.svg?srwkf4#cmo-webfont') format('svg');
+        url('#{$icomoon-font-path}/cmo-webfont.ttf?ooopsw') format('truetype'),
+        url('#{$icomoon-font-path}/cmo-webfont.woff?ooopsw') format('woff'),
+        url('#{$icomoon-font-path}/cmo-webfont.svg?ooopsw#cmo-webfont') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -25,6 +25,11 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-couple {
+    &:before {
+        content: $icon-couple;
+    }
+}
 .icon-man {
     &:before {
         content: $icon-man;

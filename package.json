@@ -1,6 +1,6 @@
 {
   "name": "cmo-webfont",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Open *demo.html* to see a list of all the glyphs in your font along with their codes/ligatures.",
   "main": "style.scss",
   "scripts": {
