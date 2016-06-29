@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'cmo-webfont';
     src:
-        url('fonts/cmo-webfont.ttf?ooopsw') format('truetype'),
-        url('fonts/cmo-webfont.woff?ooopsw') format('woff'),
-        url('fonts/cmo-webfont.svg?ooopsw#cmo-webfont') format('svg');
+        url('fonts/cmo-webfont.ttf?71m2f8') format('truetype'),
+        url('fonts/cmo-webfont.woff?71m2f8') format('woff'),
+        url('fonts/cmo-webfont.svg?71m2f8#cmo-webfont') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,6 +23,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-no-data:before {
+    content: "\e909";
+}
 .icon-couple:before {
     content: "\e908";
 }
